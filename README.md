@@ -1,6 +1,53 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+## Features
+
+- **User Authentication**: Secure login and registration
+- **Shipment Management**: Create, update, and delete shipments
+- **Real-Time Tracking**: Display shipment locations on a map
+- **ETA Calculation**: Predict estimated arrival times
+- **Responsive UI**: Modern and user-friendly design
+
+## Tech Stack
+
+- React.js
+- Redux for state management
+- React Router for navigation
+- TailwindCSS for styling
+- Axios for API requests
+- Google Maps API / Leaflet.js for map functionality
+
+## Installation
+
+### Prerequisites
+- Node.js and npm
+
+### Setup
+```bash
+git clone https://github.com/your-repo/frontend.git
+cd frontend
+npm install
+npm start
+```
+
+## Folder Structure
+
+```
+frontend/
+ ├── src/
+ │   ├── components/
+ │   ├── pages/
+ │   ├── redux/
+ │   ├── App.js
+ │   ├── index.js
+```
+
+## Contributing
+Feel free to fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License.
 
 First, run the development server:
 
